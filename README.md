@@ -1,7 +1,10 @@
-# test coverage for  [grunt-webfont (v1.6.0)](https://github.com/sapegin/grunt-webfont)  [![npm package](https://img.shields.io/npm/v/npmtest-grunt-webfont.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-grunt-webfont) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-grunt-webfont.svg)](https://travis-ci.org/npmtest/node-npmtest-grunt-webfont)
+# npmtest-grunt-webfont
+
+#### test coverage for  [grunt-webfont (v1.6.0)](https://github.com/sapegin/grunt-webfont)  [![npm package](https://img.shields.io/npm/v/npmtest-grunt-webfont.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-grunt-webfont) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-grunt-webfont.svg)](https://travis-ci.org/npmtest/node-npmtest-grunt-webfont)
+
 #### Ultimate SVG to webfont converter for Grunt.
 
-[![NPM](https://nodei.co/npm/grunt-webfont.png?downloads=true)](https://www.npmjs.com/package/grunt-webfont)
+[![NPM](https://nodei.co/npm/grunt-webfont.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/grunt-webfont)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-grunt-webfont/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-grunt-webfont/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-grunt-webfont/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-grunt-webfont/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-grunt-webfont/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-grunt-webfont/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-grunt-webfont/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-grunt-webfont/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-grunt-webfont/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-grunt-webfont/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-grunt-webfont%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-grunt-webfont/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-grunt-webfont/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-grunt-webfont/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-webfont/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-grunt-webfont%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-webfont/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-grunt-webfont/build/test-report.html](https://npmtest.github.io/node-npmtest-grunt-webfont/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-grunt-webfont/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-grunt-webfont/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-grunt-webfont/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-grunt-webfont/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-webfont/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-webfont/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-grunt-webfont/build/screenCapture.npmPackageListing.svg)
 
@@ -98,8 +107,7 @@
     "main": "tasks/webfont.js",
     "maintainers": [
         {
-            "name": "sapegin",
-            "email": "artem@sapegin.ru"
+            "name": "sapegin"
         }
     ],
     "name": "grunt-webfont",
@@ -107,7 +115,6 @@
     "peerDependencies": {
         "grunt": ">=0.4.0"
     },
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/sapegin/grunt-webfont.git"
